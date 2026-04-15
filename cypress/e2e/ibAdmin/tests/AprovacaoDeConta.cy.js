@@ -24,7 +24,7 @@ describe('Rejeição de conta', () => {
        DetalhesDaSolicitacaoPage.confirmaBotaoAprovar()
        DetalhesDaSolicitacaoPage.obterMensagemDeSucesso() 
 
-       //                                Teste Git
+   
              
     });
 
