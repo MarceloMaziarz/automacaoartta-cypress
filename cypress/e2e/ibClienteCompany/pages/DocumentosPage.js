@@ -31,8 +31,8 @@ class Documentos{
 
     obterMensagemDeSucesso(){
 
-        cy.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']", { timeout: 10000 })
-                 .should('exist')
+        cy.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']", { timeout: 15000 })
+                 .should('be.visible')
                  .and('contain.text', 'Documentos da empresa adicionados com sucesso')
   
     }

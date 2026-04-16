@@ -16,7 +16,7 @@ describe('Teste Funcional de Abertura de Conta Socio PJ e Aprovação no IB Admi
         cy.visit('https://ib-hml.artta.com.br/register/v2/company')
         
 
- //                         Cadastro de dados empresariais
+//                         CADASTRO DE DADOS EMPRESARIAIS
 
        
         EmpresaPage.selecionaTipoEmpresa('Micro Empresa (ME)')
