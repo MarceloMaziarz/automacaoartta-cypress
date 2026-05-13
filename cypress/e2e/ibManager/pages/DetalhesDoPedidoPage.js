@@ -3,7 +3,7 @@ class DetalhesDoPedidoPage{
 
     clicaBotaoCopiar(){
 
-        cy.xpath("//button[@class='sc-3ca2fb01-0 fPtyvp sc-d9f2a9df-7 hyAEQz' and text()='Copiar']").should('be.visible').click()
+        cy.xpath("//button[text()='Copiar']").should('be.visible').click()
 
    
     }

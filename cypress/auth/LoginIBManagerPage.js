@@ -3,8 +3,8 @@ import BasePage from '../core/BasePage'
 class LoginIBManagerPage {
 
   acessar() {
-    cy.visit('https://ib-manager-hml.artta.com.br/invites/login')
-    //cy.visit('https://ib-manager-qa2.artta.com.br/login')
+    //cy.visit('https://ib-manager-hml.artta.com.br/invites/login')
+    cy.visit('https://ib-manager-qa.artta.com.br/login')
     cy.get('#username', { timeout: 10000 }).should('be.visible')
   }
 

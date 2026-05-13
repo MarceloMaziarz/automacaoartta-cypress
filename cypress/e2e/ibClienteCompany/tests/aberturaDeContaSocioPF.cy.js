@@ -11,9 +11,9 @@ import { geraRazaoSocial } from '../utils/geraRazaoSocial'
 
 
 
-describe('Teste Funcional de Abertura de Conta Socio PJ e Aprovação no IB Admin', () => {
+describe('Teste Funcional de Abertura de Conta Socio PJ', () => {
     it('Realizar Abertura de Conta com Sucesso', () => {
-        cy.visit('https://ib-hml.artta.com.br/register/v2/company')
+        cy.visit('https://ib-qa.artta.com.br/register/v2/company')
         
 
 //                         CADASTRO DE DADOS EMPRESARIAIS
